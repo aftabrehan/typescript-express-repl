@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../index.ts"],
+  "sourcesContent": ["import express from 'express';\n\nconst app = express();\n\napp.get('/', (req, res) => {\n  res.send('Hello Express app!')\n});\n\napp.listen(() => {\n  console.log('Server started');\n});\n"],
+  "mappings": ";;;;;;;;;;;;;;;;;;AAAA,qBAAoB;AAEpB,MAAM,MAAM;AAEZ,IAAI,IAAI,KAAK,CAAC,KAAK,QAAQ;AACzB,MAAI,KAAK;AAAA;AAGX,IAAI,OAAO,MAAM;AACf,UAAQ,IAAI;AAAA;",
+  "names": []
+}
